@@ -5,6 +5,9 @@ import UseStateObject from './components/UseStateObject'
 import UseStateArray from './components/UseStateArray'
 import UseStateClass from './components/UseStateClass'
 import UseStateFunction from './components/UseStateFunction'
+import FunctionEffect from './components2/FunctionEffect'
+
+
 
 function App() {
 
@@ -15,7 +18,9 @@ function App() {
     {/* <UseStateObject /> */}
     {/* <UseStateArray/> */}
     {/* <UseStateClass/> */}
-    <UseStateFunction/>
+    {/* <UseStateFunction/> */}
+
+    <FunctionEffect/>
 
       </>
   )
